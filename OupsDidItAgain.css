@@ -1,0 +1,80 @@
+span{margin-bottom:10px;}body{background-color: #e0f7fa}div{margin-top: 50px;}.useless{background-color: linear-gradient(to bottom,#81d4fa,#4fc3f7); padding:50px;margin:20px;border-radius: 15px;box-shadow: 0 5px 15px rgba((0,0,0,0.1), green, blue, alpha);}#class p{font-size: 1.2rem;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#class:before{
+    content: "";
+    position: absolute;
+    top: 70px;
+    left:0;
+    background: url('wave.svg') repeat-x ;
+    width: 100%; 
+    height: 100px; 
+    opacity: 10;
+    animation:  waves 10s linear infinite, fade 10s linear infinite;;
+}
+@keyframes fade {
+    0%, 100% { opacity: 0.5; } 
+    50% { opacity: 0.3; } 
+}
+
+@keyframes waves {
+    0% {background-position: 0 0;}
+    100% {background-position: 100% 0;}
+}
